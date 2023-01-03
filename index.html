@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Primogem Farm 2</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/6.9.96/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+  <main class="container-fluid d-flex justify-content-between flex-column vh-100">
+    <section class="row d-flex justify-content-center align-items-center">
+      <div class="col-6 text-center">
+        <h1>Primogem Farm</h1>
+      </div>
+    </section>
+    <section class="row d-flex justify-content-center align-items-center py-3 px-5">
+      <div id="primogem" class="col-4">
+        <img
+          src="https://imgs.search.brave.com/rNtgov1AmxJr6EoiqVCA1etDfpb3hOvz-NmlitAT_wQ/rs:fit:256:256:1/g:ce/aHR0cDovL3d3dy5y/dy1kZXNpZ25lci5j/b20vaWNvbi1pbWFn/ZS8yMjcyMy0yNTZ4/MjU2eDgucG5n"
+          alt="Primogem" title="Primogem" class="img-fluid w-100">
+      </div>
+    </section>
+    <section class="row d-flex justify-content-center align-items-end">
+      <div class="col-2 d-flex justify-content-between align-items-end p-2 bg-dark-yellow h-spec">
+        <!-- clicks upgrade counter -->
+        <h3 class="mb-0">+0</h3> <!-- counter for per click upgrade -->
+        <h3 class="mb-0"><i class="mdi mdi-cursor-pointer"></i></h3>
+      </div>
+      <div class="col-3 d-flex justify-content-between align-items-center px-2 py-3 bg-light-yellow">
+        <!-- primogems collected -->
+        <h2><i class="mdi mdi-star-four-points"></i></h2>
+        <h2>0</h2> <!-- counter for amount of primogems -->
+      </div>
+      <div class="col-2 d-flex justify-content-stretch align-items-end p-2 bg-dark-yellow h-spec">
+        <!-- auto click upgrade counter -->
+        <h3 class="d-flex justify-content-center align-items-end"><i class="mdi mdi-timer-outline"></i></h3>
+        <section class="row justify-content-end w-100">
+          <div class="col-12">
+            <!-- timer -->
+            <div class="progress">
+              <div id="timer" class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                aria-label="Warning striped example" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-center align-items-end">
+            <h3 class="m-0">+0</h3> <!-- counter for automatic upgrades -->
+          </div>
+        </section>
+      </div>
+      <div class="col-12">
+        <section class="row">
+          <div class="col-6">
+            <!-- purchased upgrades store -->
+            <section class="row">
+              <div class="col-6">
+                <!-- click upgrades store -->
+                <section class="row">
+                  <div class="col-6"></div>
+                  <div class="col-6"></div>
+                  <div class="col-6"></div>
+                </section>
+              </div>
+              <div class="col-6">
+                <!-- automatic upgrades store -->
+                <section class="row">
+                  <div class="col-6"></div>
+                  <div class="col-6"></div>
+                  <div class="col-6"></div>
+                </section>
+              </div>
+            </section>
+          </div>
+          <div class="col-6">
+            <section class="row">
+              <div class="col-6">
+                <!-- show upgrades -->
+                <section class="row">
+                  <div class="col-6">
+                    <!-- show click upgrades -->
+                    <section class="row">
+                      <div class="col-6"></div>
+                      <div class="col-6"></div>
+                      <div class="col-6"></div>
+                    </section>
+                  </div>
+                  <div class="col-6">
+                    <!-- show automatic upgrades -->
+                    <section class="row">
+                      <div class="col-6"></div>
+                      <div class="col-6"></div>
+                      <div class="col-6"></div>
+                    </section>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

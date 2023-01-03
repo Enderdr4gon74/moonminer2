@@ -1,0 +1,21 @@
+:root {
+  --light-yellow: #ffc739;
+  --medium-yellow: #f9b508;
+  --dark-yellow: #ffaa40;
+}
+
+.h-spec {
+  height: 3.75rem
+}
+
+.bg-light-yellow {
+  background-color: var(--light-yellow);
+}
+
+.bg-medium-yellow {
+  background-color: var(--medium-yellow);
+}
+
+.bg-dark-yellow {
+  background-color: var(--dark-yellow);
+}
